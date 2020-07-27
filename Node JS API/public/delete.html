@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Delete Member Data</h2>
+    
+    <form action="/members-delete" method="POST">
+        <label for="id">ID:</label>
+        <input id="id" type="text" name="id" placeholder="ID">
+        <br>
+        <button class="btn btn-primary" type="submit" value="OK">Submit</button>
+    </form>
+
+    <form action="/members" method="GET">
+        <button class="btn btn-primary" type="submit" value="OK">BACK</button>
+    </form>
+
+
+</body>
+</html>    

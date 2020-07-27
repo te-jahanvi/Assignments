@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Update Member Data</h2>
+    
+    <form action="/members-update" method="POST">
+        <label for="id">ID:</label>
+        <input id="id" type="text" name="id" placeholder="ID">
+        <br>
+        <label for="name">NAME:</label>
+        <input id="name" type="text" name="name" placeholder="NAME">
+        <br>
+        <label for="email">EMAIL:</label>
+        <input id="email" type="text" name="email" placeholder="EMAIL">
+        <br>
+        <button class="btn btn-primary" type="submit" value="OK">Submit</button>
+    </form>
+
+    <form action="/members" method="GET">
+        <button class="btn btn-primary" type="submit" value="OK">BACK</button>
+    </form>
+
+
+</body>
+</html>    
